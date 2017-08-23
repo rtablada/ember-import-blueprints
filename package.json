@@ -1,7 +1,7 @@
 {
   "name": "ember-import-blueprints",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "An addon for providing the latest Ember Source blueprints for older applications.",
   "keywords": [
     "ember-addon"
   ],

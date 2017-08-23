@@ -1,26 +1,26 @@
 # ember-import-blueprints
 
-This README outlines the details of collaborating on this Ember addon.
+This addon is created to provide the latest set of blueprints for older versions of Ember CLI.
+
+Currently `ember-import-blueprints` is helpful for using the new RFC 176 import syntax in applications using Ember CLI <2.16.
+This can be used after running `ember-modules-codemod` to keep future development up to date with the new imports.
+
+After Ember 2.16 this addon will be kept up to date with any upcoming blueprint changes that backwards compatible although there are no major blueprint changes planned after 2.16.
+
+> **NOTE** because this addon overwrites all of the blueprints provided by `ember-source` be sure to either remove this addon or keep it up to date with your `ember-source` version.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-import-blueprints`
-* `npm install`
+```bash
+ember install ember-import-blueprints
+```
 
 ## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Any generator provided by `ember-source` will match the blueprints on `master` as of the latest logged commit.
 
-## Running Tests
+## Changelog
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+### V 1.0.0
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+* Import blueprints from commit [`f5a63208`](https://github.com/emberjs/ember.js/tree/f5a63208f8d998425e15c7af1167f6d8fdb16f1e/blueprints)
