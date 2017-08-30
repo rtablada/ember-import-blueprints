@@ -1,18 +1,17 @@
 {
   "name": "ember-import-blueprints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An addon for providing the latest Ember Source blueprints for older applications.",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "https://github.com/rtablada/ember-import-blueprints",
+  "repository": "",
   "license": "MIT",
   "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
