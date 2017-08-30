@@ -5,6 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
+  "repository": "https://github.com/rtablada/ember-import-blueprints",
   "license": "MIT",
   "author": "",
   "directories": {
