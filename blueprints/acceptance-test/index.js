@@ -5,7 +5,7 @@ var pathUtil    = require('ember-cli-path-utils');
 var stringUtils = require('ember-cli-string-utils');
 var existsSync  = require('exists-sync');
 var path        = require('path');
-var useTestFrameworkDetector = require('../test-framework-detector');
+var useTestFrameworkDetector = require('ember-source/blueprints/test-framework-detector');
 
 module.exports = useTestFrameworkDetector({
   description: 'Generates an acceptance test for a feature.',

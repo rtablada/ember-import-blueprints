@@ -1,6 +1,6 @@
 {
   "name": "ember-import-blueprints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An addon for providing the latest Ember Source blueprints for older applications.",
   "keywords": [
     "ember-addon"
